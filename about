@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — Rangga</title>
+<meta name="description" content="Kenali Rangga: perjalanan, nilai kerja, dan minat di bidang teknologi.">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><span class="dot"></span>Rangga.dev</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="skills.html">Skills</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="experience.html">Experience</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="nav-cta">Hubungi Saya</a>
+    <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<main>
+
+  <section class="page-header">
+    <div class="container about-header-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="crescent"></span>About Me</div>
+        <h1 class="section-title" style="font-size:clamp(32px,5vw,52px);">
+          Saya percaya kerja terbaik<br>terjadi saat ketelitian<br>bertemu rasa ingin tahu.
+        </h1>
+      </div>
+      <div class="about-photo-wrap reveal">
+        <div class="about-photo">
+          <span class="mono">FOTO PROFIL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="section">
+    <div class="container story-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="crescent"></span>Perjalanan</div>
+        <h2 class="section-title">Dari penasaran<br>menjadi profesi.</h2>
+      </div>
+      <div class="story-text reveal">
+        <p>
+          Ketertarikan saya pada teknologi dimulai dari kebiasaan membongkar cara kerja
+          aplikasi yang saya gunakan sehari-hari — bukan untuk merusaknya, tapi untuk
+          memahami logika di baliknya. Dari sana, saya mulai belajar membangun hal kecil
+          sendiri: halaman statis sederhana, lalu skrip otomasi, hingga akhirnya aplikasi
+          dengan basis data sungguhan.
+        </p>
+        <p>
+          Selama beberapa tahun terakhir, saya berfokus pada pengembangan produk digital
+          end-to-end — mulai dari riset kebutuhan pengguna, perancangan antarmuka, hingga
+          implementasi sistem di belakangnya. Saya menikmati pekerjaan yang menuntut
+          ketelitian sekaligus keterbukaan untuk belajar hal baru, karena dunia teknologi
+          jarang diam di tempat.
+        </p>
+        <p>
+          Di luar pekerjaan, saya senang membaca tentang desain sistem, mengikuti
+          perkembangan tooling open-source, dan sesekali menulis catatan teknis singkat
+          untuk diri sendiri di masa depan.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="section values-section">
+    <div class="container">
+      <div class="eyebrow reveal"><span class="crescent"></span>Cara Kerja</div>
+      <h2 class="section-title reveal">Tiga hal yang saya<br>pegang dalam setiap proyek.</h2>
+
+      <div class="values-grid">
+        <div class="value-card reveal">
+          <span class="value-mark mono">Detail</span>
+          <h3>Ketelitian bukan opsional</h3>
+          <p>Spasi, transisi, dan teks error sekecil apapun ikut menentukan apakah sebuah produk terasa selesai atau tidak.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-mark mono">Jelas</span>
+          <h3>Komunikasi yang lugas</h3>
+          <p>Saya lebih senang menyampaikan batasan teknis sejak awal daripada memberi harapan yang tidak realistis.</p>
+        </div>
+        <div class="value-card reveal">
+          <span class="value-mark mono">Tumbuh</span>
+          <h3>Belajar tanpa henti</h3>
+          <p>Tooling dan praktik terbaik berubah cepat — saya menjaga ruang untuk terus menyesuaikan cara kerja.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERESTS -->
+  <section class="section">
+    <div class="container interests-grid">
+      <div class="reveal">
+        <div class="eyebrow"><span class="crescent"></span>Minat</div>
+        <h2 class="section-title">Di luar layar kerja.</h2>
+        <p class="section-lead">Hal-hal yang menjaga perspektif saya tetap segar.</p>
+      </div>
+      <ul class="interest-list reveal">
+        <li><span class="mono">01</span>Desain sistem & arsitektur perangkat lunak</li>
+        <li><span class="mono">02</span>Fotografi jalanan minimalis</li>
+        <li><span class="mono">03</span>Kopi manual brew & seduh rumahan</li>
+        <li><span class="mono">04</span>Catatan & jurnal teknis pribadi</li>
+        <li><span class="mono">05</span>Mendaki jalur ringan di akhir pekan</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section cta-section">
+    <div class="container cta-box reveal">
+      <div>
+        <h2 class="section-title">Mari berkenalan<br>lebih jauh.</h2>
+        <p class="section-lead">Saya selalu terbuka untuk percakapan baru.</p>
+      </div>
+      <a href="contact.html" class="btn btn-primary">Hubungi Saya →</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="footer-text">© 2026 Rangga. Dibangun dengan ketenangan.</span>
+    <div class="footer-socials">
+      <a href="contact.html">Email</a>
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
